@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Es posible ejecutar codigo CSS  */
+@media (max-width:400px){
+  .mobile{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    }
+  .tablita{
+    width: 90%;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .formulas{
+    width: 100%;
+    margin:20px
+  }
+}
+.tablita{
+  height: 550px;
+}
+@media (max-width:800px){
+  .mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+  .tablita{
+    width: 90%;
+    margin: 0;
+  }
+  .formulas{
+    width: 100%;
+    margin:20px
+  }
+}
+.tablita{
+  height: 550px;
+}
